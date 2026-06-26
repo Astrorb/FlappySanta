@@ -10,8 +10,14 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objects/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Room","folderPath":"folders/Room.yy","name":"Room","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sons","folderPath":"folders/Sons.yy","name":"Sons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"BG","folderPath":"folders/Sprites/BG.yy","name":"BG","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -22,7 +28,13 @@
   },
   "name":"FlappySanta",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"oBird01","path":"objects/oBird01/oBird01.yy",},},
+    {"id":{"name":"oBird02","path":"objects/oBird02/oBird02.yy",},},
+    {"id":{"name":"oBird03","path":"objects/oBird03/oBird03.yy",},},
+    {"id":{"name":"oLevel","path":"objects/oLevel/oLevel.yy",},},
+    {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},},
+    {"id":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},},
+    {"id":{"name":"Global","path":"scripts/Global/Global.yy",},},
     {"id":{"name":"Happy_Alley","path":"sounds/Happy_Alley/Happy_Alley.yy",},},
     {"id":{"name":"levelup","path":"sounds/levelup/levelup.yy",},},
     {"id":{"name":"Pickup","path":"sounds/Pickup/Pickup.yy",},},
@@ -48,7 +60,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Rm_game","path":"rooms/Rm_game/Rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
