@@ -13,3 +13,13 @@ if global.lost{
         game_lost();
     }
 }
+if place_meeting(x,y,oEnemyBase) and  isHitEnemy{
+    isHitEnemy = !isHitEnemy;
+    global.point += 10;
+}
+counter--;
+if (counter <= 0){
+    isHitEnemy = true;
+    counter = 60;
+}
+show_debug_message(counter)

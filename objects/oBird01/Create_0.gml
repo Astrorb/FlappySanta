@@ -7,5 +7,8 @@ gravity = grav;
 image_speed = 0;
 
 angle = 0;
-
 image_angle = angle;
+
+
+isHitEnemy = true;
+counter = 60;

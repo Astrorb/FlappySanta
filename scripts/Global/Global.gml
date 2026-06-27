@@ -2,6 +2,8 @@
 #region Lost in game
 global.lost = false;
 global.point = 0;
+global.level = 1;
+global.level_points = [100,250,500,750,850,950,1200,1400,1600];
 #endregion
 
 #region 
@@ -13,9 +15,7 @@ function game_lost(){
     
      global.lost = true;
 
-//with(all){
-    //hspeed = 0;
-//}
+
     vspeed = -2;
     hspeed = -5;
  
@@ -25,6 +25,18 @@ function game_lost(){
 
 
     alarm[0] = game_get_speed(gamespeed_fps) * 2;
+}
+
+#endregion
+
+#region defeat enemy
+function beat_enemy(){
+    
+    
+    oEnemyBase.image_angle += 2;
+    oEnemyBase.vspeed= -2; 
+    oEnemyBase.gravity += 0.02;
+    oEnemyBase.image_speed = 0;
 }
 
 #endregion
