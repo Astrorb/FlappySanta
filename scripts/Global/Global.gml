@@ -4,6 +4,7 @@ global.lost = false;
 global.point = 0;
 global.level = 1;
 global.level_points = [100,250,500,750,850,950,1200,1400,1600];
+global.colletions = 0;
 #endregion
 
 #region 

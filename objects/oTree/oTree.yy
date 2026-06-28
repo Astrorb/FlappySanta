@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"obstaculo",
-    "path":"sprites/obstaculo/obstaculo.yy",
+    "name":"tentacle",
+    "path":"sprites/tentacle/tentacle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

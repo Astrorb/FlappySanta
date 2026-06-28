@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Carcara",
-    "path":"sprites/Carcara/Carcara.yy",
+    "name":"squid",
+    "path":"sprites/squid/squid.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Coruja",
-    "path":"sprites/Coruja/Coruja.yy",
+    "name":"Shark",
+    "path":"sprites/Shark/Shark.yy",
   },
   "spriteMaskId":null,
   "visible":true,

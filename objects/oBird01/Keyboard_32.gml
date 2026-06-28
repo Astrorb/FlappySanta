@@ -8,7 +8,7 @@ vspeed = vsp;
 image_index = 1;
 image_speed = 1;
 
-var _fx = instance_create_layer(x+5,y,"Fx",oFxDive);
+var _fx = instance_create_layer(x+5,y,"Fx",oAirRush);
 _fx.image_angle = image_angle;
 _fx.vspeed = vsp + 1;
 

@@ -12,3 +12,4 @@ image_angle = angle;
 
 isHitEnemy = true;
 counter = 60;
+isSpawnFx = true;
