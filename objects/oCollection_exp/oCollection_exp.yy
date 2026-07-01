@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ResourceIte",
-    "path":"sprites/ResourceIte/ResourceIte.yy",
+    "name":"protein",
+    "path":"sprites/protein/protein.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -9,3 +9,13 @@ if global.lost{
 move_and_collide(2,2,all)
 
 
+if y >= 352
+{
+    vspeed = -8;
+ 
+}    
+if y <= -32{
+    vspeed = 4;
+    
+}
+

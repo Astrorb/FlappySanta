@@ -14,14 +14,19 @@ if global.lost{
     {
         vspeed = -8;
         image_angle = 90;
+        sprite_index = USO_Hurt;
+        alarm[1] = game_get_speed(0)*3
+        invincible = true;
     }    
     if y <= -32{
         vspeed = 4;
         image_angle =270;
         
-
+        
+        
     }
 }
+
 if place_meeting(x,y,oEnemyBase) and  isHitEnemy{
     isHitEnemy = !isHitEnemy;
     global.point += 10;

@@ -38,6 +38,8 @@
     {"$GMObjectProperty":"v2","%Name":"destination","filters":[
         "GMRoom",
       ],"listItems":[],"multiselect":false,"name":"destination","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Rm_init","path":"rooms/Rm_init/Rm_init.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Rm_init","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"text_color","filters":[],"listItems":[],"multiselect":false,"name":"text_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
+    {"$GMObjectProperty":"v2","%Name":"text_outline_color","filters":[],"listItems":[],"multiselect":false,"name":"text_outline_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFF0078","varType":7,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -18,6 +18,6 @@ isSpawnFx = true;
 hp = 10;
 max_hp = hp;
 //invincible
-invincible = true;
+invincible = false;
 
 show_debug_message(global.lost);
