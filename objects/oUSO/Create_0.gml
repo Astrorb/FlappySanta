@@ -19,3 +19,5 @@ hp = 10;
 max_hp = hp;
 //invincible
 invincible = true;
+
+show_debug_message(global.lost);

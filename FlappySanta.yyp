@@ -64,6 +64,8 @@
     {"id":{"name":"Rm_init","path":"rooms/Rm_init/Rm_init.yy",},},
     {"id":{"name":"Global","path":"scripts/Global/Global.yy",},},
     {"id":{"name":"Seq_Title","path":"sequences/Seq_Title/Seq_Title.yy",},},
+    {"id":{"name":"sq_FadeIn","path":"sequences/sq_FadeIn/sq_FadeIn.yy",},},
+    {"id":{"name":"sq_FadeOut","path":"sequences/sq_FadeOut/sq_FadeOut.yy",},},
     {"id":{"name":"Happy_Alley","path":"sounds/Happy_Alley/Happy_Alley.yy",},},
     {"id":{"name":"levelup","path":"sounds/levelup/levelup.yy",},},
     {"id":{"name":"Pickup","path":"sounds/Pickup/Pickup.yy",},},

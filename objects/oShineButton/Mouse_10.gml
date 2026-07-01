@@ -1,3 +1,5 @@
-image_xscale *= 1.1;
-image_yscale *= 1.1;
+image_xscale = xscale * 1.4;
+text_xscale  *= 1.4;
+image_yscale = yscale * 0.7;
+text_yscale  *= .7;
 image_speed = 1;

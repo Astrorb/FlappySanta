@@ -6,6 +6,8 @@ global.level = 1;
 global.level_points = [100,250,500,750,850,950,1200,1400,1600];
 global.colletions = 0;
 global.ally = 0;
+global.destination = Rm_game;
+global.transition = false;
 #endregion
 
 #region 
@@ -26,7 +28,11 @@ function game_lost(){
     layer_hspeed("BG_3",0);
 
 
-    alarm[0] = game_get_speed(gamespeed_fps) * 2;
+    alarm[0] = game_get_speed(0) ;
+    
+    global.destination = Rm_init;
+    
+    layer_sequence_create("Transition",0,0,sq_FadeIn);
 }
 
 #endregion
@@ -41,5 +47,13 @@ function enmey_dieout(){
 
     if image_alpha <= .2 instance_destroy();
 }
-
+function switch_room(){
+    global.transition = true;
+    room_goto(global.destination);
+}
+function transition_finished(){
+    global.transition = false;
+}
 #endregion
+
+

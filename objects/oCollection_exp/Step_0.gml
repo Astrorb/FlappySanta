@@ -1,4 +1,5 @@
-image_yscale += .1;
+xscale *= .1;
+yscale *= .1;
 
 
 image_alpha = lerp(image_alpha,0,0.1);

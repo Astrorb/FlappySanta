@@ -26,6 +26,7 @@
   "height":93,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"5626c1f5-2c35-4368-9eb3-b669c68c1ab0","blendMode":3,"displayName":"Layer 1","isLocked":false,"name":"5626c1f5-2c35-4368-9eb3-b669c68c1ab0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"4fdec025-6d4f-4538-b4e0-e156d9810192","blendMode":0,"displayName":"default","isLocked":false,"name":"4fdec025-6d4f-4538-b4e0-e156d9810192","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"USO_dash",
