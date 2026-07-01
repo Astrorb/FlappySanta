@@ -7,6 +7,7 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_5EFF259F1","path":"rooms/Rm_store/Rm_store.yy",},
+    {"name":"inst_B7D501E","path":"rooms/Rm_store/Rm_store.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +17,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oShineButton","path":"objects/oShineButton/oShineButton.yy",},"propertyId":{"name":"text","path":"objects/oShineButton/oShineButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Back",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oShineButton","path":"objects/oShineButton/oShineButton.yy",},"propertyId":{"name":"destination","path":"objects/oShineButton/oShineButton.yy",},"resource":{"name":"Rm_init","path":"rooms/Rm_init/Rm_init.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Rm_init",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5609756,"scaleY":1.9411764,"x":560.0,"y":32.0,},
+        {"$GMRInstance":"v4","%Name":"inst_B7D501E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B7D501E","objectId":{"name":"oShop","path":"objects/oShop/oShop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Buttons","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Title","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Title","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Collections","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Collections","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

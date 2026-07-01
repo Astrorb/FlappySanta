@@ -6,3 +6,6 @@ yscale = image_yscale;
 //文本长宽比例
 text_xscale = 1;
 text_yscale = 1;
+
+shake_random = 0;
+isShake = false;
