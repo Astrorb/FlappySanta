@@ -1,4 +1,4 @@
-if sprite_index != USO_idle and invincible{
-    sprite_index = USO_idle;
-    invincible = false;
+if sprite_index != global.player_sprite {
+    sprite_index = global.player_sprite;
+    
 }

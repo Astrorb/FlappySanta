@@ -4,10 +4,12 @@ global.lost = false;
 global.point = 0;
 global.level = 1;
 global.level_points = [100,250,500,750,850,950,1200,1400,1600];
-global.colletions = 0;
+global.colletions = 1000;
 global.ally = 0;
 global.destination = Rm_game;
 global.transition = false;
+global.player_sprite = USO_idle;
+global.item_isUnlock = [true,false,false,false,false,false];
 #endregion
 
 #region 

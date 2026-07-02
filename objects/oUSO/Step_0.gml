@@ -14,9 +14,9 @@ if global.lost{
     {
         vspeed = -8;
         image_angle = 90;
-        sprite_index = USO_Hurt;
+        //sprite_index = USO_Hurt;
         alarm[1] = game_get_speed(0)*3
-        invincible = true;
+        //invincible = true;
     }    
     if y <= -32{
         vspeed = 4;
@@ -53,8 +53,8 @@ if (counter <= 0){
     counter = 120;
 }
 
-if (hp <= 0){
+
     
-    game_lost();
-}
+  
+
 

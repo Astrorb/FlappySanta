@@ -1,0 +1,3 @@
+if global.player_sprite ==  sprite{
+    image_speed = 1;
+}

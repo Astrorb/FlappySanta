@@ -15,6 +15,3 @@ draw_set_colour(-1);
 draw_set_valign(-1);
 draw_set_halign(-1);
 draw_set_font(-1);
-var i = 1;
-i ++
-show_debug_message(i);
